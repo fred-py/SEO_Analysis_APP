@@ -1,0 +1,13 @@
+prefix=/Users/frederico/seo_analysis/.conda
+exec_prefix=/Users/frederico/seo_analysis/.conda
+libdir=/Users/frederico/seo_analysis/.conda/lib
+sharedlibdir=/Users/frederico/seo_analysis/.conda/lib
+includedir=/Users/frederico/seo_analysis/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
