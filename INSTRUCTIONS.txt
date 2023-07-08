@@ -3,3 +3,6 @@ conda install
 2. pandas
 3. requests
 4. conda install -n seo_analysis ipykernel --update-deps --force-reinstall
+    NOTE: although conda installed ipykernel, the kernel was only recognised 
+    after pip install and restarting vscode.
+    Re-opening of vscode only solve the issue after running pip
