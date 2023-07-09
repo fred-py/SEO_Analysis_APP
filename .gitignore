@@ -1,0 +1,7 @@
+# Folders to ignore
+__pycache__/
+.conda/
+.vscode/
+
+# Files to ignore
+keys.py
